@@ -1,0 +1,81 @@
+<mvc:View controllerName="project4.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+      <VBox id="_IDGenVBox2" alignItems="Center" justifyContent="Center" class="homeVBox">
+        <items>
+          <!-- Row 1 -->
+          <HBox id="_IDGenHBox" justifyContent="Center" alignItems="Start">
+            <items>
+              <GenericTile id="_IDGenGenericTile" header="SD" subheader="Sales And Distribution" press="onTilePress" class="sapUiSmallMargin">
+                <tileContent>
+                  <TileContent id="_IDGenTileContent1">
+                    <content>
+                      <Text id="_IDGenText" text="Content 1" />
+                    </content>
+                  </TileContent>
+                </tileContent>
+              </GenericTile>
+
+              <GenericTile id="_IDGenGenericTile1" header="Tile 2" subheader="Info" press="onTilePress" class="sapUiSmallMargin">
+                <tileContent>
+                  <TileContent id="_IDGenTileContent2">
+                    <content>
+                      <Text id="_IDGenText1" text="Content 2" />
+                    </content>
+                  </TileContent>
+                </tileContent>
+              </GenericTile>
+
+              <GenericTile id="_IDGenGenericTile2" header="Tile 3" subheader="Info" press="onTilePress" class="sapUiSmallMargin">
+                <tileContent>
+                  <TileContent id="_IDGenTileContent3">
+                    <content>
+                      <Text id="_IDGenText2" text="Content 3" />
+                    </content>
+                  </TileContent>
+                </tileContent>
+              </GenericTile>
+            </items>
+          </HBox>
+
+          <!-- Row 2 -->
+          <HBox id="_IDGenHBox1" justifyContent="Center" alignItems="Start">
+            <items>
+              <GenericTile id="_IDGenGenericTile3" header="Tile 4" subheader="Info" press="onTilePress" class="sapUiSmallMargin">
+                <tileContent>
+                  <TileContent id="_IDGenTileContent4">
+                    <content>
+                      <Text id="_IDGenText3" text="Content 4" />
+                    </content>
+                  </TileContent>
+                </tileContent>
+              </GenericTile>
+
+              <GenericTile id="_IDGenGenericTile4" header="Tile 5" subheader="Info" press="onTilePress" class="sapUiSmallMargin">
+                <tileContent>
+                  <TileContent id="_IDGenTileContent5">
+                    <content>
+                      <Text id="_IDGenText4" text="Content 5" />
+                    </content>
+                  </TileContent>
+                </tileContent>
+              </GenericTile>
+
+              <GenericTile id="_IDGenGenericTile5" header="Tile 6" subheader="Info" press="onTilePress" class="sapUiSmallMargin">
+                <tileContent>
+                  <TileContent id="_IDGenTileContent6">
+                    <content>
+                      <Text id="_IDGenText5" text="Content 6" />
+                    </content>
+                  </TileContent>
+                </tileContent>
+              </GenericTile>
+            </items>
+          </HBox>
+        </items>
+      </VBox>
+    </content>
+    </Page>
+</mvc:View>

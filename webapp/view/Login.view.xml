@@ -1,0 +1,60 @@
+<mvc:View controllerName="project4.controller.Login"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="loginpage" title="Login" showHeader="false">
+<content>
+      <VBox
+        id="loginContainer"
+        justifyContent="Center"
+        alignItems="Center"
+        height="100%"
+        width="100%"
+        class="loginPageVBox">
+
+        <Panel id="_IDGenPanel"
+          width="350px"
+          class="loginPanel"
+          headerText="Welcome! Please login">
+
+          <VBox
+            id="_IDGenVBox"
+            justifyContent="SpaceBetween"
+            alignItems="Stretch"
+            class="loginFormVBox"
+            width="100%"
+            renderType="Bare">
+
+            <Input
+              id="usernamelogin"
+              placeholder="Username"
+              width="100%"
+              showValueStateMessage="false"
+              valueState="None" />
+
+            <Input
+              id="passwordlogin"
+              placeholder="Password"
+              type="Password"
+              width="100%"
+              showValueStateMessage="false"
+              valueState="None" />
+
+            <Button
+              id="_IDGenButton1"
+              text="Login"
+              press="onLogin"
+              type="Emphasized"
+              width="100%" />
+
+            <Button
+              id="_IDGenButton2"
+              text="Sign Up"
+              press=".onNavigateToSignup"
+              width="100%" />
+
+          </VBox>
+        </Panel>
+      </VBox>
+    </content>
+    </Page>
+</mvc:View>
